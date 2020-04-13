@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2bb06a26-b0b0-4d80-b993-fdbde39a4e3d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Appearances.java" beforeDir="false" afterPath="$PROJECT_DIR$/Appearances.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Taboo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Taboo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TabooTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TabooTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TetrisGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/TetrisGrid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TetrisGridTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TetrisGridTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hw1CodeCamp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hw1CodeCamp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hw1CodeCamp/Appearances.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hw1CodeCamp/Appearances.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hw1CodeCamp/Taboo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hw1CodeCamp/Taboo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hw1CodeCamp/TabooTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hw1CodeCamp/TabooTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hw1CodeCamp/TetrisGrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hw1CodeCamp/TetrisGrid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hw1CodeCamp/TetrisGridTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hw1CodeCamp/TetrisGridTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="294" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1Zbp6pLzQlrdO7bw4T2qOdZJH1n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="JUnit.TabooTest">
+    <configuration name="AppearancesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw1CodeCamp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppearancesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CharGridTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw1CodeCamp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CharGridTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TabooTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw1CodeCamp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TabooTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TetrisGridTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw1CodeCamp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TetrisGridTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TabooTest" />
+        <item itemvalue="JUnit.AppearancesTest" />
+        <item itemvalue="JUnit.TetrisGridTest" />
+        <item itemvalue="JUnit.CharGridTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2bb06a26-b0b0-4d80-b993-fdbde39a4e3d" name="Default Changelist" comment="" />
+      <created>1585117475860</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585117475860</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1585216232259">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1585216232259" />
+    <state width="1877" height="150" key="GridCell.Tab.0.bottom" timestamp="1585219770101">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="150" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1585219770101" />
+    <state width="1320" height="155" key="GridCell.Tab.0.bottom/0.27.1366.698@0.27.1366.698" timestamp="1585131665308" />
+    <state width="1877" height="150" key="GridCell.Tab.0.center" timestamp="1585219770101">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="150" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1585219770101" />
+    <state width="1320" height="155" key="GridCell.Tab.0.center/0.27.1366.698@0.27.1366.698" timestamp="1585131665308" />
+    <state width="1877" height="150" key="GridCell.Tab.0.left" timestamp="1585219770101">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="150" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1585219770101" />
+    <state width="1320" height="155" key="GridCell.Tab.0.left/0.27.1366.698@0.27.1366.698" timestamp="1585131665308" />
+    <state width="1877" height="150" key="GridCell.Tab.0.right" timestamp="1585219770101">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="150" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1585219770101" />
+    <state width="1320" height="155" key="GridCell.Tab.0.right/0.27.1366.698@0.27.1366.698" timestamp="1585131665308" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1585149234304">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1585149234304" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1585149234304">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1585149234304" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1585149234304">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1585149234304" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1585149234304">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1585149234304" />
+    <state x="166" y="27" width="1024" height="698" key="SettingsEditor" timestamp="1585117591636">
+      <screen x="0" y="27" width="1366" height="698" />
+    </state>
+    <state x="166" y="27" width="1024" height="698" key="SettingsEditor/0.27.1366.698@0.27.1366.698" timestamp="1585117591636" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585220056475">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1585220056475" />
+    <state x="350" y="272" width="646" height="208" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585117583841">
+      <screen x="0" y="27" width="1366" height="698" />
+    </state>
+    <state x="350" y="272" width="646" height="208" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.27.1366.698@0.27.1366.698" timestamp="1585117583841" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hw1CodeCamp$CharGridTest.ic" NAME="CharGridTest Coverage Results" MODIFIED="1585117655066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/hw1CodeCamp$AppearancesTest.ic" NAME="AppearancesTest Coverage Results" MODIFIED="1585212829160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/hw1CodeCamp$TetrisGridTest.ic" NAME="TetrisGridTest Coverage Results" MODIFIED="1585145718752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
