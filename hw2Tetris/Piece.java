@@ -34,10 +34,20 @@ public class Piece {
 	 Makes its own copy of the array and the TPoints inside it.
 	*/
 	public Piece(TPoint[] points) {
-		// YOUR CODE HERE
+		this.body = points;
+		skirt = new int[this.body.length];
+		int curX = -1;
+		this.width = 0;
+		this.height = 0;
+		for(int i = 0; i < this.body.length; i++){
+			if(this.body[i].x != curX){
+				curX = this.body[i].x;
+				this.skirt[i] = this.body[i].y;
+				this.width++;
+			}
+			if(this.body[i].y > this.height) this.height = this.body[i].y;
+		}
 	}
-	
-
 	
 	
 	/**
