@@ -12,6 +12,8 @@ public class Board	{
 	// Some ivars are stubbed out for you:
 	private int width;
 	private int height;
+	private int widths[];
+	private int heights[];
 	private boolean[][] grid;
 	private boolean DEBUG = true;
 	boolean committed;
@@ -29,7 +31,14 @@ public class Board	{
 		grid = new boolean[width][height];
 		committed = true;
 		
-		// YOUR CODE HERE
+		this.widths = new int[height];
+		this.heights = new int[width];
+		for(int i = 0; i < height; i++){
+			this.widths[i] = 0;
+		}
+		for(int i = 0; i < width; i++){
+			this.heights[i] = 0;
+		}
 	}
 	
 	
@@ -53,8 +62,12 @@ public class Board	{
 	 Returns the max column height present in the board.
 	 For an empty board this is 0.
 	*/
-	public int getMaxHeight() {	 
-		return 0; // YOUR CODE HERE
+	public int getMaxHeight() {
+		int max = 0;
+		for(int i = 0; i < this.width; i++){
+			if(this.heights[i] > max) max = this.heights[i];
+		}
+		return max;
 	}
 	
 	
@@ -133,12 +146,14 @@ public class Board	{
 	public int place(Piece piece, int x, int y) {
 		// flag !committed problem
 		if (!committed) throw new RuntimeException("place commit problem");
-			
-		int result = PLACE_OK;
-		
-		// YOUR CODE HERE
-		
-		return result;
+
+		for(int i = 0; i < piece.getBody().length; i++){
+			if(heights[x + i] > y) return PLACE_BAD;
+			if(heights[x + i] > this.height || (x + i) > this.width || (x + i) < 0) return PLACE_OUT_BOUNDS;
+
+		}
+
+		return PLACE_OK;
 	}
 	
 	

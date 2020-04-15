@@ -1,6 +1,8 @@
 // Piece.java
 
+import java.awt.*;
 import java.util.*;
+import java.util.List;
 
 /**
  An immutable representation of a tetris piece in a particular rotation.
@@ -35,18 +37,32 @@ public class Piece {
 	*/
 	public Piece(TPoint[] points) {
 		this.body = points;
-		skirt = new int[this.body.length];
-		int curX = -1;
+		int minX = 4;
+		int maxX = 0;
+		Map<Integer, Integer> data = new HashMap<>();
 		this.width = 0;
 		this.height = 0;
 		for(int i = 0; i < this.body.length; i++){
-			if(this.body[i].x != curX){
-				curX = this.body[i].x;
-				this.skirt[i] = this.body[i].y;
-				this.width++;
+			if(data.containsKey(this.body[i].x)){
+				if(this.body[i].y < data.get(this.body[i].x)){
+					data.remove(this.body[i].x);
+					data.put(this.body[i].x, this.body[i].y);
+				}
+			}else{
+				data.put(this.body[i].x, this.body[i].y);
 			}
+
+			if(minX > this.body[i].x) minX = this.body[i].x;
+			if(maxX < this.body[i].x) maxX = this.body[i].x;
 			if(this.body[i].y > this.height) this.height = this.body[i].y;
 		}
+		skirt = new int[data.size()];
+		for(int i = 0; i < data.size(); i++){
+			skirt[i] = data.get(i);
+		}
+		this.height++;
+		this.width = maxX - minX + 1;
+		this.next = null;
 	}
 	
 	
@@ -97,8 +113,12 @@ public class Piece {
 	 rotated from the receiver.
 	 */
 	public Piece computeNextRotation() {
-		// YOUR CODE HERE
-		return null; // YOUR CODE HERE
+		TPoint[] rotBody = new TPoint[this.body.length];
+		for(int i = 0; i < this.body.length; i++){
+			rotBody[i] = new TPoint(this.height - this.body[i].y - 1, this.body[i].x);
+		}
+		Piece rotP = new Piece(rotBody);
+		return rotP;
 	}
 
 	/**
@@ -130,7 +150,11 @@ public class Piece {
 		if (!(obj instanceof Piece)) return false;
 		Piece other = (Piece)obj;
 		
-		// YOUR CODE HERE
+		Piece p = (Piece) obj;
+		if(p.width != this.width || p.height != this.height || this.body.length != p.body.length) return false;
+		for(int i=0; i < this.body.length; i++) {
+			if (this.body[i].x != p.body[i].x || this.body[i].y != p.body[i].y) return false;
+		}
 		return true;
 	}
 
@@ -197,8 +221,18 @@ public class Piece {
 	 to the first piece.
 	*/
 	private static Piece makeFastRotations(Piece root) {
-		// YOUR CODE HERE
-		return null; // YOUR CODE HERE
+		Piece cur = root;
+		Piece rot;
+		while(true){
+			rot = cur.computeNextRotation();
+			if(rot.equals(root)){
+				cur.next = root;
+				break;
+			}
+			cur.next = rot;
+			cur = rot;
+		}
+		return root;
 	}
 	
 	

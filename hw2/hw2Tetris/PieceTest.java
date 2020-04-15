@@ -1,6 +1,10 @@
+import junit.framework.Assert;
 import junit.framework.TestCase;
 
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
 
 /*
   Unit test for Piece class -- starter shell.
@@ -57,6 +61,32 @@ public class PieceTest extends TestCase {
 		assertTrue(Arrays.equals(new int[] {0, 0, 1}, s.getSkirt()));
 		assertTrue(Arrays.equals(new int[] {1, 0}, sRotated.getSkirt()));
 	}
-	
-	
+
+	public void testEquals() {
+		assertTrue(pyr1.equals(pyr1));
+		assertTrue(pyr1.equals(pyr4.computeNextRotation()));
+		assertFalse(pyr1.equals(pyr4));
+		assertFalse(pyr1.equals(new ArrayList<Integer>()));
+	}
+
+	public void testFastRotation() {
+		Piece[] pcs = Piece.getPieces();
+		Piece p = pcs[pcs.length - 1];
+		assertTrue(p.equals(pyr1));
+		assertTrue(p.fastRotation().equals(pyr2));
+		assertTrue(p.fastRotation().fastRotation().equals(pyr3));
+		assertTrue(p.fastRotation().fastRotation().fastRotation().equals(pyr4));
+		assertTrue(p.fastRotation().fastRotation().fastRotation().fastRotation().equals(p));
+	}
+
+	public void testParse() {
+		Piece p;
+		p = new Piece("0 0 1 0 1 1 2 0");
+		assertTrue(p.equals(pyr1));
+		//junit3 cant test assertions so...
+	}
+
+	public void testBody() {
+		assertTrue(Arrays.equals(pyr1.getBody(), new Piece("0 0  1 0  1 1  2 0").getBody()));
+	}
 }
