@@ -1,29 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4a00a33-e92c-4f8a-89c1-ea190cad050e" name="Default Changelist" comment="" />
+    <list default="true" id="d4a00a33-e92c-4f8a-89c1-ea190cad050e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/metropolises.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hw3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hw3/Sudoku$Spot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hw3/Sudoku$Spot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hw3/Sudoku.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hw3/Sudoku.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sudoku.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1bdO1zf6L1Ml9WsFu3mQSuDFlGg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DataBase">
+    <configuration name="DataBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataBase" />
+      <module name="hw3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Sudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sudoku" />
       <module name="hw3" />
@@ -31,8 +89,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SudokuFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SudokuFrame" />
+      <module name="hw3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataBase" />
+        <item itemvalue="Application.SudokuFrame" />
         <item itemvalue="Application.Sudoku" />
       </list>
     </recent_temporary>
@@ -47,33 +114,85 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588958292498</updated>
+      <workItem from="1589281444673" duration="2000" />
+      <workItem from="1589281536634" duration="5009000" />
+      <workItem from="1589287826134" duration="1399000" />
+      <workItem from="1589289480323" duration="13385000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1320" height="115" key="GridCell.Tab.0.bottom" timestamp="1588976901588">
-      <screen x="0" y="27" width="1366" height="698" />
+    <state x="349" y="361" key="#SQL_Dialects" timestamp="1589298272325">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="349" y="361" key="#SQL_Dialects/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1589298272325" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589298383463">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1589298383463" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1589282621491">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1589282621491" />
+    <state x="783" y="203" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1589281642700">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="783" y="203" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1589281642700" />
+    <state x="406" y="191" key="FileChooserDialogImpl" timestamp="1589299733480">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="406" y="191" key="FileChooserDialogImpl/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1589299733480" />
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom" timestamp="1589308629378">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1589308629378" />
     <state width="1320" height="115" key="GridCell.Tab.0.bottom/0.27.1366.698@0.27.1366.698" timestamp="1588976901588" />
-    <state width="1320" height="115" key="GridCell.Tab.0.center" timestamp="1588976901587">
-      <screen x="0" y="27" width="1366" height="698" />
+    <state width="1877" height="250" key="GridCell.Tab.0.center" timestamp="1589308629378">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="250" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1589308629378" />
     <state width="1320" height="115" key="GridCell.Tab.0.center/0.27.1366.698@0.27.1366.698" timestamp="1588976901587" />
-    <state width="1320" height="115" key="GridCell.Tab.0.left" timestamp="1588976901587">
-      <screen x="0" y="27" width="1366" height="698" />
+    <state width="1877" height="250" key="GridCell.Tab.0.left" timestamp="1589308629378">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="250" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1589308629378" />
     <state width="1320" height="115" key="GridCell.Tab.0.left/0.27.1366.698@0.27.1366.698" timestamp="1588976901587" />
-    <state width="1320" height="115" key="GridCell.Tab.0.right" timestamp="1588976901587">
-      <screen x="0" y="27" width="1366" height="698" />
+    <state width="1877" height="250" key="GridCell.Tab.0.right" timestamp="1589308629378">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="250" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1589308629378" />
     <state width="1320" height="115" key="GridCell.Tab.0.right/0.27.1366.698@0.27.1366.698" timestamp="1588976901587" />
-    <state x="166" y="27" width="1024" height="698" key="SettingsEditor" timestamp="1588958422158">
-      <screen x="0" y="27" width="1366" height="698" />
+    <state x="233" y="0" width="1024" height="698" key="SettingsEditor" timestamp="1589300001007">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="233" y="0" key="SettingsEditor/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1589300001007" />
     <state x="166" y="27" width="1024" height="698" key="SettingsEditor/0.27.1366.698@0.27.1366.698" timestamp="1588958422158" />
-    <state x="355" y="271" width="646" height="208" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588958427542">
-      <screen x="0" y="27" width="1366" height="698" />
+    <state x="499" y="364" width="646" height="208" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1589281640523">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="499" y="364" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1589281640523" />
     <state x="355" y="271" width="646" height="208" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.27.1366.698@0.27.1366.698" timestamp="1588958427542" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1589299777214">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1589299777214" />
   </component>
 </project>

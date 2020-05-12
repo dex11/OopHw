@@ -1,5 +1,7 @@
-import javafx.util.Pair;
+//import javafx.util.Pair;
+import kotlin.Pair;
 
+import javax.sound.midi.SysexMessage;
 import java.util.*;
 
 /*
@@ -138,7 +140,8 @@ public class Sudoku {
 	
 	
 	private List<Spot> board;
-	private List< Pair<Spot, Integer> > spots;
+	private List<Integer> solution;
+	private List<Pair<Spot, Integer>> spots;
 	private long startTime;
 	private long endTime;
 	/**
@@ -148,6 +151,7 @@ public class Sudoku {
 		startTime = System.currentTimeMillis();
 		endTime = 0;
 		board = new ArrayList<>();
+		solution = new ArrayList<>();
 		for(int i = 0; i < ints.length; i++){
 			for(int j = 0; j < ints[0].length; j++){
 				Spot s = new Spot(ints[i][j], i*9 + j);
@@ -168,7 +172,7 @@ public class Sudoku {
 				cur = s.getValues(board, i).size();
 				int index = 0;
 				for (int j = 0; j < spots.size(); j++) {
-					if (spots.get(j).getValue() > cur) {
+					if (spots.get(j).getSecond() > cur) {
 						index = j;
 						break;
 					}
@@ -179,10 +183,10 @@ public class Sudoku {
 		}
 		///just for test
 //		System.out.println();
-		for(int i = 0; i < spots.size(); i++){
-			System.out.print(" " + spots.get(i).getKey().getIndex() + "-" + spots.get(i).getValue());
-		}
-		System.out.println();
+//		for(int i = 0; i < spots.size(); i++){
+//			System.out.print(" " + spots.get(i).getFirst().getIndex() + "-" + spots.get(i).getSecond());
+//		}
+//		System.out.println();
 	}
 	
 	/**
@@ -198,9 +202,15 @@ public class Sudoku {
 //		System.out.print(" " + index);
 		if(index == spots.size()){
 //			System.out.println("WOOOHOOOOO FOUND ONE ");
+			if(this.solution.size() == 0){
+				solution = new ArrayList<>();
+				for(int i = 0; i < this.board.size(); i++){
+					solution.add(board.get(i).get());
+				}
+			}
 			return ans += 1;
 		}
-		Spot s = spots.get(index).getKey();
+		Spot s = spots.get(index).getFirst();
 //		System.out.print(" REAL INDEX " + s.getIndex() + " ");
 		List<Integer> vals = s.getValues(board, s.getIndex());
 		if(vals == null){
@@ -219,11 +229,20 @@ public class Sudoku {
 	}
 	
 	public String getSolutionText() {
-		return ""; // YOUR CODE HERE
+		if(solution != null) {
+			StringBuilder s = new StringBuilder();
+			for (int i = 0; i < this.solution.size(); i++) {
+				if(i % 9 == 0 && i != 0) s.append('\n');
+				s.append(solution.get(i));
+				s.append(" ");
+			}
+			return s.toString();
+		}
+		return "";
 	}
 	
 	public long getElapsed() {
-		return endTime - startTime; // YOUR CODE HERE
+		return endTime - startTime;
 	}
 
 	private class Spot{
@@ -231,9 +250,16 @@ public class Sudoku {
 		private int value;
 		private int index;
 
+
+
 		public Spot(int i, int index) {
 			value = i;
 			this.index = index;
+		}
+
+		@Override
+		public String toString() {
+			return Integer.toString(this.value);
 		}
 
 		public int getIndex(){
